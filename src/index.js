@@ -30,7 +30,13 @@ class App extends React.Component {
       );
     }
 
-    return <div>Loading ...</div>;
+    return (
+      <div>
+        <h1>
+          Loading <i className={`asterisk loading icon`} />
+        </h1>
+      </div>
+    );
   }
 }
 
